@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bookandquiz.BookAndQuiz">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.bookandquiz.BookAndQuiz.PdfViewfromsdActivity"></activity>
+        <activity android:name="com.bookandquiz.BookAndQuiz.PdfViewActivity" />
+        <activity android:name="com.bookandquiz.BookAndQuiz.ChapterListActivity" />
+        <activity android:name="com.bookandquiz.BookAndQuiz.StasticActivity" />
+        <activity android:name="com.bookandquiz.BookAndQuiz.QandNActivity" />
+        <activity android:name="com.bookandquiz.BookAndQuiz.QuizActivity" />
+        <activity android:name="com.bookandquiz.BookAndQuiz.AllStudentActivity"
+            android:label="All Subject"/>
+        <activity android:name="com.bookandquiz.BookAndQuiz.SignUpActivity" />
+        <activity android:name="com.bookandquiz.BookAndQuiz.SignInActivity" />
+        <activity android:name="com.bookandquiz.BookAndQuiz.HomeActivity" />
+        <activity android:name="com.bookandquiz.BookAndQuiz.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

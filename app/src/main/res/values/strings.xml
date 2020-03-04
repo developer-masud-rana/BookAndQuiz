@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ITBangladeshProject(1)</string>
+    <string name="Enter_gamil">Enter Your User Email</string>
+    <string name="Enter_password">Enter Your User Password</string>
+    <string name="Input_Username">Input Your User Name</string>
+    <string name="Input_Userpassword">Input You User Password</string>
+    <string name="Input_Useremail">Input Your User Email</string>
+    <string name="btn_SignUp">SignUp</string>
+    <string name="Allready_account">Already have an Account</string>
+</resources>

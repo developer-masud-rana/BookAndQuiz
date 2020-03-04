@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "862686077280",
+    "firebase_url": "https://itbangladeshproject.firebaseio.com",
+    "project_id": "itbangladeshproject",
+    "storage_bucket": "itbangladeshproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862686077280:android:d84c767417510debc8be05",
+        "android_client_info": {
+          "package_name": "com.livewallpaper.itbangladeshproject1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862686077280-d94m6o694mmvp2r7fjcj5f5af4rj9lup.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4M01S12fJWXBu6cpnAdRGXvgL1bm8aBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862686077280-d94m6o694mmvp2r7fjcj5f5af4rj9lup.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
