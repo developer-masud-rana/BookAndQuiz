@@ -127,7 +127,7 @@ return super.onOptionsItemSelected(item);
         int id=v.getId();
         switch (id){
             case R.id.crd_allstudent:
-                startActivity(new Intent(HomeActivity.this,AllStudentActivity.class));
+                startActivity(new Intent(HomeActivity.this, AllSubjectActivity.class));
                 Toast.makeText(getApplicationContext(), "All Subject", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.crd_quiz:

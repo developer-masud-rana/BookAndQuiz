@@ -23,7 +23,7 @@ import com.bookandquiz.BookAndQuiz.Interface.ItemClickListener;
 import com.bookandquiz.BookAndQuiz.Model.Subject;
 import com.bookandquiz.BookAndQuiz.ViewHolder.CategoryViewHolder;
 
-public class AllStudentActivity extends AppCompatActivity {
+public class AllSubjectActivity extends AppCompatActivity {
 
     FirebaseDatabase database;
     DatabaseReference reference;
@@ -45,7 +45,7 @@ public class AllStudentActivity extends AppCompatActivity {
 
         recyclerView=findViewById(R.id.re);
         recyclerView.setHasFixedSize(true);
-        LinearLayoutManager linearLayoutManager=new LinearLayoutManager(AllStudentActivity.this);
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(AllSubjectActivity.this);
         linearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         recyclerView.setLayoutManager(linearLayoutManager);
 
@@ -62,7 +62,7 @@ public class AllStudentActivity extends AppCompatActivity {
                 holder.setItemClickListener(new ItemClickListener() {
                     @Override
                     public void onClick(View view, int position) {
-                        Intent intent=new Intent(AllStudentActivity.this,ChapterListActivity.class);
+                        Intent intent = new Intent(AllSubjectActivity.this, ChapterListActivity.class);
                         Common.CATEGORY_ID_SELECTED=adapter.getRef(position).getKey();
                         Common.CATEGORY_SELECTED=model.getName();
                         startActivity(intent);

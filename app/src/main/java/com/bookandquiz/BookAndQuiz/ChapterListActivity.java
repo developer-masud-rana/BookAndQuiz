@@ -92,7 +92,7 @@ public class ChapterListActivity extends AppCompatActivity {
                             Intent intent = new Intent(ChapterListActivity.this, PdfViewfromsdActivity.class);
                             intent.putExtra("filelink", n);
                             startActivity(intent);
-                            Toast.makeText(ChapterListActivity.this, "Open Pdf file", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(ChapterListActivity.this, "Open Pdf book", Toast.LENGTH_SHORT).show();
                         }else {
 
                             Intent intent = new Intent(ChapterListActivity.this, PdfViewActivity.class);

@@ -23,7 +23,8 @@
         <activity android:name="com.bookandquiz.BookAndQuiz.StasticActivity" />
         <activity android:name="com.bookandquiz.BookAndQuiz.QandNActivity" />
         <activity android:name="com.bookandquiz.BookAndQuiz.QuizActivity" />
-        <activity android:name="com.bookandquiz.BookAndQuiz.AllStudentActivity"
+        <activity
+            android:name="com.bookandquiz.BookAndQuiz.AllSubjectActivity"
             android:label="All Subject"/>
         <activity android:name="com.bookandquiz.BookAndQuiz.SignUpActivity" />
         <activity android:name="com.bookandquiz.BookAndQuiz.SignInActivity" />
